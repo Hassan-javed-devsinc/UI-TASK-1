@@ -535,15 +535,26 @@ body{
         /* border:1px solid red;    */
     }
    
+    .m-items{
+        justify-content: space-between;
+    }
+    /* .m-items {
+        flex-direction: column;
+    } */
 
     .side-items{
+        /* padding: 1rem; */
         margin-top: 3rem;
         width: auto;
     }
+    
     .m-m-items{
+        /* padding: 1rem; */
+        margin-left: 1rem;
+        margin-right: 1rem;
         margin-top: 3rem;
         width: auto;
-        height: inherit;
+        /* height: inherit; */
     }
 
     .c-items {
@@ -772,7 +783,3 @@ body{
         width: 50vw;
     }
 }
-
-
-
-
